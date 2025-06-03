@@ -1,3 +1,4 @@
+"""The main program for hunt the wumpus"""
 from cave import Cave
 
 cavern = Cave("Cavern")
