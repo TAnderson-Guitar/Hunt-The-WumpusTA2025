@@ -27,3 +27,8 @@ class Character:
         """Method to make the character fight you"""
         print(self.name + " does not want to fight you.")
         return True
+
+class Enemy(Character):
+    def __init__(self, char_name, char_description):
+        super().__init__(char_name, char_description)
+        
