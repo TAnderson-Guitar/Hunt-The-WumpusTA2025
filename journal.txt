@@ -13,3 +13,7 @@ Created 'Harry - The smelly Wumpus' in test program and tested the conversation 
 Slight modifications made to the testing gounds "char_test" to allow us to fight Harry
 Made the Enemy subclass contain a fight function which allows the player to fight with the Wumpus
 Made us able to set the weakness for the Enemy as well as die from him.
+6/06/2025 - Finished testing the character in the char_test.py file. 
+Added harry object into the main program and added it to the dungeon object. 
+Reworked the main loop to report if a character is in a cave.
+Added more code to the main loop to accept diffrent inputs (moving, talking and fighting) - still need to finish the code to manage fighting.
