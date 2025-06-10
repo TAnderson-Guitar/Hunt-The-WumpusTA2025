@@ -20,8 +20,8 @@ dungeon.link_caves(grotto, "West")
 grotto.link_caves(dungeon, "East")
 
 current_cave = cavern
-dead = False
-while dead is False:
+DEAD = False
+while DEAD is False:
     print("\n")
     current_cave.get_details()
     inhabited = current_cave.get_character()
@@ -41,6 +41,6 @@ while dead is False:
                 current_cave.set_character(None)
             else:
                 print("Scurry home. You lost the fight")
-                dead = True
+                DEAD = True
         else:
             print("There is no one here to fight with.")
