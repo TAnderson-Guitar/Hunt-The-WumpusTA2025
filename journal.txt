@@ -17,3 +17,4 @@ Made us able to set the weakness for the Enemy as well as die from him.
 Added harry object into the main program and added it to the dungeon object. 
 Reworked the main loop to report if a character is in a cave.
 Added more code to the main loop to accept diffrent inputs (moving, talking and fighting) - still need to finish the code to manage fighting.
+10/06/2026 - Finished the Tutorial for the Hunt the Wumpus code, Added 3 lines of code for a graceful exit

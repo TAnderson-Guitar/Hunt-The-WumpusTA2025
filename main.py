@@ -10,8 +10,8 @@ dungeon = Cave("Dungeon")
 dungeon.set_description("A large cave with a rack")
 
 harry = Enemy("Harry", "A dirty smelly Wumpus")
-harry.describe()
 harry.set_conversation("Come closer. I cannot see you.")
+harry.set_weakness("vegemite")
 dungeon.set_character(harry)
 
 cavern.link_caves(dungeon, "South")
@@ -20,7 +20,8 @@ dungeon.link_caves(grotto, "West")
 grotto.link_caves(dungeon, "East")
 
 current_cave = cavern
-while True:
+dead = False
+while dead is False:
     print("\n")
     current_cave.get_details()
     inhabited = current_cave.get_character()
@@ -40,5 +41,6 @@ while True:
                 current_cave.set_character(None)
             else:
                 print("Scurry home. You lost the fight")
+                dead = True
         else:
             print("There is no one here to fight with.")
