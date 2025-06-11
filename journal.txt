@@ -17,6 +17,7 @@ Made us able to set the weakness for the Enemy as well as die from him.
 Added harry object into the main program and added it to the dungeon object. 
 Reworked the main loop to report if a character is in a cave.
 Added more code to the main loop to accept diffrent inputs (moving, talking and fighting) - still need to finish the code to manage fighting.
-10/06/2026 - Finished the Tutorial for the Hunt the Wumpus code, Added 3 lines of code for a graceful exit
+10/06/2025 - Finished the Tutorial for the Hunt the Wumpus code, Added 3 lines of code for a graceful exit
 Created my new ideas for the next things to add to the project. My aim of the game is to escape from the english staffroom while also setting up capa
 Throughout the game we will get the chance to go to either the hall or the carpark to complete the setup of capa.
+11/06/2025 - Created new repo for the new game

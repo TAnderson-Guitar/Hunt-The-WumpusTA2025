@@ -2,7 +2,7 @@
 class Cave:
     """Defines attributes and methods for cave objets"""
     def __init__(self, cave_name):
-        """Sets the class attribues"""
+        """Sets the class attributes"""
         self.name = cave_name
         self.description = None
         self.linked_caves = {}
